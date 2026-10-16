@@ -45,3 +45,11 @@ Para ver el header `x-death` del mensaje muerto sin sacarlo de la cola:
 ```
 docker compose run --rm --no-deps eventos node herramientas/ver-dlq.mjs auditoria.dlq
 ```
+
+
+## Políticas de retención
+
+Las políticas viven en `rabbitmq/politicas.json`, montado en `rabbit1`, y se importan con:
+
+
+## El clúster
